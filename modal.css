@@ -30,6 +30,10 @@ img {
   padding-right: 1rem;
 }
 
+.nav__icone__burger{
+  /* color: #fe142f; */
+}
+
 .topnav {
   overflow: hidden;
   margin: 3.5%;
@@ -573,6 +577,10 @@ footer {
  @media screen and (max-width: 540px) {
   .content{
     margin: 20% auto 0 auto;
+  }
+
+  .bground{
+    background-color: transparent;
   }
 
   .topnav a {display: none;}
