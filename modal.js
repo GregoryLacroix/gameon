@@ -5,7 +5,7 @@ function editNav() {
   } else {
     x.className = "topnav";
   }
-}
+}      
 
 // DOM Elements
 const modalBody = document.querySelector('.modal-body');
