@@ -19,6 +19,7 @@ body {
   font-size: 18px;
   max-width: 1300px;
   margin: 0 auto;
+  overflow: inherit;
 }
 
 p {
@@ -575,12 +576,19 @@ footer {
 }
 
  @media screen and (max-width: 540px) {
+
+  body{
+    overflow: hidden;
+  }
+
   .content{
-    margin: 20% auto 0 auto;
+    margin: 22% auto 0 auto;
   }
 
   .bground{
     background-color: transparent;
+    
+    /* overflow-y: hidden; */
   }
 
   .topnav a {display: none;}

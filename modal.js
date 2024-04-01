@@ -36,7 +36,7 @@ const MESSAGE_ERROR = {
   location: "Vous devez choisir une option."
 }
 
-// css errors
+// css custom errors
 const borderError = "2px solid #FF4E60";
 
 // Regex Email
