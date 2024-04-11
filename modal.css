@@ -577,25 +577,18 @@ footer {
 
  @media screen and (max-width: 540px) {
 
-  body{
-    overflow: hidden;
-  }
-
   .content{
     margin: 22% auto 0 auto;
   }
 
   .bground{
     background-color: transparent;
-    
-    /* overflow-y: hidden; */
   }
 
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
-    /* margin-top: -15px; */
   }
 } 
 
