@@ -7,7 +7,7 @@ function editNav() {
   }
 }      
 
-// DOM Elements
+// DOM Elements      
 const modalBody = document.querySelector('.modal-body');
 const modalbg = document.querySelector(".bground");
 const modalButton = document.querySelector(".modal-btn");
